@@ -10,6 +10,7 @@
 
 @interface ViewController () {
     UIViewController *vc = [[UIViewController alloc] init];
+    UIview *view = [UIView alloc] init];
 }
 
 @end
