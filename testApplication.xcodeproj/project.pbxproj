@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2CF3E4420CE6BC600B05CC1 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2CF3E4220CE6BC600B05CC1 /* Second.storyboard */; };
 		A2FD9A5520A190B100484AE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FD9A5420A190B100484AE5 /* AppDelegate.m */; };
 		A2FD9A5820A190B100484AE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FD9A5720A190B100484AE5 /* ViewController.m */; };
 		A2FD9A5B20A190B100484AE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FD9A5920A190B100484AE5 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A2CF3E4320CE6BC600B05CC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = testApplication/Base.lproj/Second.storyboard; sourceTree = "<group>"; };
 		A2FD9A5020A190B100484AE5 /* testApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FD9A5320A190B100484AE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A2FD9A5420A190B100484AE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				A2FD9A5420A190B100484AE5 /* AppDelegate.m */,
 				A2FD9A5620A190B100484AE5 /* ViewController.h */,
 				A2FD9A5720A190B100484AE5 /* ViewController.m */,
+				A2CF3E4220CE6BC600B05CC1 /* Second.storyboard */,
 				A2FD9A5920A190B100484AE5 /* Main.storyboard */,
 				A2FD9A5F20A190B300484AE5 /* Assets.xcassets */,
 				A2FD9A6120A190B300484AE5 /* LaunchScreen.storyboard */,
@@ -238,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2CF3E4420CE6BC600B05CC1 /* Second.storyboard in Resources */,
 				A2FD9A6320A190B300484AE5 /* LaunchScreen.storyboard in Resources */,
 				A2FD9A6020A190B300484AE5 /* Assets.xcassets in Resources */,
 				A2FD9A5B20A190B100484AE5 /* Main.storyboard in Resources */,
@@ -304,6 +308,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A2CF3E4220CE6BC600B05CC1 /* Second.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2CF3E4320CE6BC600B05CC1 /* Base */,
+			);
+			name = Second.storyboard;
+			sourceTree = "<group>";
+		};
 		A2FD9A5920A190B100484AE5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
