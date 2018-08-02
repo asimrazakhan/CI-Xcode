@@ -8,7 +8,9 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController () {
+    UIViewController *vc = [[UIViewController alloc] init];
+}
 
 @end
 
